@@ -1,31 +1,38 @@
-Smart Retail Predictor is a machine learning-powered solution designed to help retail businesses make smarter, data-driven decisions.
+# Smart Retail Forecaster 🛍️📈
 
-🔹 Key Features
+## Overview
+Smart Retail Forecaster is a machine learning-powered sales prediction tool designed for retail stores.  
+It predicts **daily sales** based on:
+- Date (day, month, year)
+- Promotion status
 
-Sales Forecasting – Predicts future sales based on historical data & seasonal trends.
+This project demonstrates **end-to-end ML development**:
+1. Data preprocessing
+2. Model training & saving
+3. Flask web app deployment
 
-Inventory Optimization – Helps retailers prevent overstocking or stockouts.
+---
 
-Trend Analysis – Identifies high-demand products and seasonal patterns.
+## 🚀 Features
+- **User-friendly interface** to input date and promotion details
+- Predicts **daily sales**
+- Uses **Linear Regression**
+- Organized **project structure** for production-ready deployment
+- **Custom CSS styling** for an engaging UI
 
-Interactive Dashboard – Visualizes predictions for easy interpretation.
+---
 
-🔹 Tech Stack
-
-Python – Core programming
-
-Pandas, NumPy – Data preprocessing
-
-Scikit-learn – Model training & evaluation
-
-Matplotlib / Seaborn – Data visualization
-
-Flask (optional) – For web deployment
-
-🔹 Use Cases
-
-Small & medium retail stores
-
-E-commerce inventory planning
-
-Seasonal sales strategy building
+## 📂 Project Structure
+smart-retail-forecaster/
+│
+├── data/ # Dataset
+│ └── sales_data.csv
+├── model/ # Trained model
+│ └── demand_model.pkl
+├── app.py # Flask web app
+├── train_model.py # Model training script
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
+├── .gitignore # Ignored files for Git
+└── static/ # Static files (CSS, images)
+├── style.css
