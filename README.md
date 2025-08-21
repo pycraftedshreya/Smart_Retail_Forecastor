@@ -39,17 +39,17 @@ smart_retail_forecaster/
 🚀 Getting Started
 
 1️. Clone the Repository
-   git clone https://github.com/yourusername/smart-retail-forecaster.git
+git clone https://github.com/yourusername/smart-retail-forecaster.git
    
-   cd smart-retail-forecaster
+cd smart-retail-forecaster
 
 2. Install Dependencies
 
-  pip install -r requirements.txt
+pip install -r requirements.txt
 
 3. Run the Application
 
-   python app.py
+python app.py
 
 
 Access the app at: http://127.0.0.1:5000
